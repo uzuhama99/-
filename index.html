@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아모레퍼시픽</title>
+
+    <!-- css -->
+    
+
+    <!-- 아이콘 xeicon -->
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <!-- 스와이퍼 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    
+    <link href="css/아모레퍼시픽_최종.css" rel="stylesheet">
+
+    
+    <!-- js -->
+    <!-- conjs.com -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- style -->
+    
+    <script>
+        $(function(){
+            var swiper = new Swiper(".main_v", {
+                autoplay: {
+                    delay: 2500, //2.5초
+                    disableOnInteraction: false, 
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                
+            });
+
+            var swiper = new Swiper(".new", {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+             });     
+
+        })
+      </script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="up">
+            <img src="img/logo_gnb.svg" alt="로고">
+            <div class="search">
+                <input type="text">
+                <a href="#"><img src="img/QNA.png"></a>
+            </div><!-- search end -->
+            <div class="right">
+                <a href="#"><h4>로그인</h4></a>
+                <a href="#"><h4>회원가입</h4></a>
+                <a href="#"><i class="star xi-cart-o">
+                    <span>장바구니</span>
+                </i></a>
+            </div><!-- right end -->
+        </div><!-- up end -->
+
+        <div class="under">
+            <nav>
+                <ul>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">브랜드관</a></li>
+                    <li><a href="#">신상</a></li>
+                    <li><a href="#">선물추천</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </nav>
+        </div><!-- under end -->
+    </header>
+
+    <section class="main_visual">
+        <div class="swiper main_v">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/main_1.png" alt="메인이미지1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main_2.jpg" alt="메인이미지2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main_3.jpg" alt="메인이미지3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main_4.jpg" alt="메인이미지4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main_5.jpg" alt="메인이미지5">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section><!-- main_visual end -->
+    
+    <section class="brand">
+        <h2>브랜드관</h2>
+        <div class="list">
+            <div class="item">
+                <a href="#"><img src="img/01.png" alt="설화수"></a>
+                <p>설화수</p>
+            </div><!-- item1 end -->
+            <div class="item">
+                <a href="#"><img src="img/02.png" alt="헤라"></a>
+                <p>헤라</p>
+            </div><!-- item2 end -->
+            <div class="item">
+                <a href="#"><img src="img/03.png" alt="프리메라"></a>
+                <p>프리메라</p>
+            </div><!-- item3 end -->
+            <div class="item">
+                <a href="#"><img src="img/04.png" alt="아모레 퍼시픽"></a>
+                <p>아모레 퍼시픽</p>
+            </div><!-- item4 end -->
+            <div class="item">
+                <a href="#"><img src="img/05.png" alt="바이탈뷰티"></a>
+                <p>바이탈뷰티</p>
+            </div><!-- item5 end -->
+            <div class="item">
+                <a href="#"><img src="img/06.png" alt="아이오페"></a>
+                <p>아이오페</p>
+            </div><!-- item6 end -->
+            <div class="item">
+                <a href="#"><img src="img/07.png" alt="라네즈"></a>
+                <p>라네즈</p>
+            </div><!-- item7 end -->
+            <div class="item">
+                <a href="#"><img src="img/08.png" alt="마몽드"></a>
+                <p>마몽드</p>
+            </div><!-- item8 end -->
+            <div class="item">
+                <a href="#"><img src="img/09.png" alt="한율"></a>
+                <p>한율</p>
+            </div><!-- item9 end -->
+            <div class="item">
+                <a href="#"><img src="img/10.png" alt="에스트라"></a>
+                <p>에스트라</p>
+            </div><!-- item10 end -->
+        </div>
+    </section><!-- brand end -->
+    
+    <section class="special_event">
+        <div class="a2">
+            <div class="title">
+                <h2>스페셜이벤트</h2>
+                <h3>놓치면 후회할 특별한 세일들</h3>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <img src="img/event_1.png" alt="이벤트1">
+                    <div class="info">
+                        <strong>에스트라</strong>
+                        <h3>에이시카 365 흔적 진정 세럼</h3>
+                        <h2><span>10%</span>  34,200원</h2>
+                        <h4>38000원</h4>
+                    </div><!-- info end -->
+                </div><!-- item end 01 -->
+                <div class="item">
+                    <img src="img/event_2.png" alt="이벤트2">
+                    <div class="info">
+                        <strong>마몽드</strong>
+                        <h3>플라워 앰플 마스크팩 1매</h3>
+                        <h2><span>50%</span>  1,250원</h2>
+                        <h4>2500원</h4>
+                    </div><!-- info end -->
+                </div><!-- item end 02 -->            
+                <div class="item">
+                    <img src="img/event_3.png" alt="이벤트3">
+                    <div class="info">
+                        <strong>한율</strong>
+                        <h3>자연을 닮은 시트마스크</h3>
+                        <h2><span>50%</span>  1,500원</h2>
+                        <h4>3000원</h4>
+                    </div><!-- info end -->
+                </div><!-- item end 03 -->
+                <div class="item">
+                    <img src="img/event_4.png" alt="이벤트4">
+                    <div class="info">
+                        <strong>헤라</strong>
+                        <h3>블랙 쿠션 SPF34/PA++<br>(본품15g+리필15g)</h3>
+                        <h2><span>15%</span>  56,100원</h2>
+                        <h4>66000원</h4>
+                    </div><!-- info end -->
+                </div><!-- item end 04 -->
+            </div> <!-- list end -->
+               <a href="#"> <li>전체보기</li></a>
+        </div><!-- a2 end -->
+    </section><!-- special event end -->
+
+    <section class="best">
+        <h2>베스트</h2>
+        <div class="bar">
+            <ul>
+                <a href="#"><li>ALL</li></a>
+                <a href="#"><li>스킨케어</li></a>
+                <a href="#"><li>메이크업</li></a>
+                <a href="#"><li>네일/향수</li></a>
+                <a href="#"><li class="color">생활용품</li></a>
+                <a href="#"><li>소품</li></a>
+                <a href="#"><li>뷰티푸드</li></a>
+                <a href="#"><li>남성</li></a>
+                <a href="#"><li>베이비</li></a>
+            </ul>
+        </div><!-- bar end -->
+        <div class="list">
+            <div class="b1">
+                <img src="img/king_1.png">
+                <img src="img/king_2.png">
+                <img src="img/king_3.png">
+            </div>
+
+            <div class="item">
+                <img src="img/best01.png" alt="베스트1">
+                <div class="info">
+                    <strong>일리윤</strong>
+                    <h3>[대용량] 튼살크림 330ml</h3>
+                    <div class="a1">
+                        <h2>35%</h2>
+                        <h2>26,000원</h2>
+                        <p>40000원</p>
+                    </div>
+                    <i class="star xi-star">
+                        <span>4.8(280)</span>
+                    </i>
+                </div><!-- info end -->
+            </div><!-- item end 1 -->
+            <div class="item">
+                <img src="img/best02.png" alt="베스트2">
+                <div class="info">
+                    <strong>려</strong>
+                    <h3>더블이펙터 탈모증상완화 블랙샴푸 543ml</h3>
+                    <div>
+                        <h2>39,000원</h2>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                    </div>
+                </div><!-- info end -->
+            </div><!-- item end 2 -->
+            <div class="item">
+                <img src="img/best03.png" alt="베스트3">
+                <div class="info">
+                    <strong>일리윤</strong>
+                    <h3>[대용량] 세라마이드 아토 로션 528ml</h3>
+                    <div class="a1">
+                        <h2>40%</h2>
+                        <h2>19,740원</h2>
+                        <p>32,900 원</p>
+                    </div>
+                    <i class="star xi-star">
+                        <span>4.8(280)</span>
+                    </i>
+                </div><!-- info end -->
+            </div><!-- item end 3 -->
+            <div class="item">
+                <img src="img/best04.png" alt="베스트4">
+                <div class="info">
+                    <strong>려</strong>
+                    <h3>자양윤모 탈모증상전문케어 2STEP 세트</h3>
+                    <div class="a1">
+                        <h2>50%</h2>
+                        <h2>20,000원</h2>
+                        <p>40000원</p>
+                    </div>
+                    <i class="star xi-star">
+                        <span>4.8(280)</span>
+                    </i>
+                </div><!-- info end -->
+            </div><!-- item end 4 -->
+            <div class="item">
+                <img src="img/best05.png" alt="베스트5">
+                <div class="info">
+                    <strong>프리메라</strong>
+                    <h3>후리 앤 후리 200ml</h3>
+                    <div class="a1">
+                        <h2>10%</h2>
+                        <h2>27,900원</h2>
+                        <p>21000원</p>
+                    </div>
+                    <i class="star xi-star">
+                        <span>4.8(280)</span>
+                    </i>
+                </div><!-- info end -->
+            </div><!-- item end 5 -->
+            <div class="item">
+                <img src="img/best06.png" alt="베스트6">
+                <div class="info">
+                    <strong>라보에이치</strong>
+                    <h3>탈모증상완화 샴푸 안티에이징+볼륨337ml</h3>
+                    <div class="a1">
+                        <h2>40%</h2>
+                        <h2>19,200원</h2>
+                        <p>32000원</p>
+                    </div>
+                    <i class="star xi-star">
+                        <span>4.8(280)</span>
+                    </i>
+                </div><!-- info end -->
+            </div><!-- item end 6 -->
+        </div><!-- list end -->
+        <a href="#"><li>전체보기</li></a>
+    </section><!-- best end -->
+    
+    <section class="new_1">
+        <div class="title">
+            <h2>신상</h2>
+            <h3>베일에 쌓여있던 신상품을 소개합니다.</h3>
+        </div>
+        <div class="new_0">
+            <div class="swiper new">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_1.png" alt="신상1">
+                            <div class="info">
+                                <strong>아윤채</strong>
+                                <h4>아윤재 헤어 볼륨 픽서 150ml</h4>
+                                <h3>19,200원</h3>
+                            </div><!-- info end -->
+                        </div><!-- item end 01 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_2.png" alt="신상2">
+                            <div class="info">
+                                <strong>유행화장</strong>
+                                <h4 class="plus">[예약판매] 2022 프로젝트<br>아모레 유행화장 단행본 </h4>
+                                <div>
+                                    <h3>10%</h3>
+                                    <h3>19,200원</h3>
+                                    <p>32000원</p>
+                                </div>
+                            </div><!-- info end -->
+                        </div><!-- item end 02 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_3.png" alt="신상3">
+                            <div class="info">
+                                <strong>세잔느</strong>
+                                <h4>[세잔느] 퀵 앤 이지 헤어 마스카라 </h4>
+                                <div>
+                                    <h3>30%</h3>
+                                    <h3>11,900원</h3>
+                                    <p>17000원</p>
+                                </div>
+                            </div><!-- info end -->
+                        </div><!-- item end 03 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_4.png" alt="신상3">
+                            <div class="info">
+                                <strong>프리메라</strong>
+                                <h4>유스 래디언스 비타티놀 세럼 1입 15g(1입) </h4>
+                                <h3>35,000원</h3>
+                            </div><!-- info end -->
+                        </div><!-- item end 04 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_5.png" alt="신상3">
+                            <div class="info">
+                                <strong>페이스스토리</strong>
+                                <h4>[쇼핑백증정] 각질 피지관리 워터 제로필링기 </h4>
+                                <h3>38,900원</h3>
+                            </div><!-- info end -->
+                        </div><!-- item end 05 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <img src="img/new_6.png" alt="신상3">
+                            <div class="info">
+                                <strong>오설록</strong>
+                                <h4>콤부차 깔라망고 10입 50g</h4>
+                                <h3>8,000원</h3>
+                            </div><!-- info end -->
+                        </div><!-- item end 06 -->
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recomend">
+        <section class="recom">
+            <div class="cont01">
+                <div class="title">
+                    <h2>피부에 따른<br>추천상품</h2>
+                    <p>내 피부에 꼭 맞는 제품을 만나보세요</p>
+                </div>
+                <div class="select">
+                    <select>
+                        <option>수분부족</option>
+                        <option>민감성/트러블</option>
+                        <option>주름</option>
+                        <option>모공</option>
+                        <option>칙칙함</option>
+                    </select>
+                </div>
+            </div><!-- cont01 end -->
+
+            <div class="cont02">
+                <div class="item">
+                    <img src="img/type1.png" alt="타입1">
+                    <div class="info">
+                        <strong>순플러스</strong>
+                        <h4>5.5 밸런싱 에멀전</h4>
+                        <div>
+                            <h3>30%</h3>
+                            <h3>15,400원</h3>
+                            <p>22000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 01 -->
+                <div class="item">
+                    <img src="img/type2.png" alt="타입2">
+                    <div class="info">
+                        <strong>한율</strong>
+                        <h4>백화고 앰플 에센스 40ml</h4>
+                        <div>
+                            <h3>10%</h3>
+                            <h3>75,500원</h3>
+                            <p>85000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 02 -->
+                <div class="item">
+                    <img src="img/type3.png" alt="타입3">
+                    <div class="info">
+                        <strong>한율</strong>
+                        <h4>어린쑥 진정맑은 클렌징폼 120g</h4>
+                        <div>
+                            <h3>40%</h3>
+                            <h3>9,600원</h3>
+                            <p>16000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 03 -->
+                <div class="item">
+                    <img src="img/type4.png" alt="타입4">
+                    <div class="info">
+                        <strong>프리메라</strong>
+                        <h4>오가니언스 에멀전 150ml</h4>
+                        <div>
+                            <h3>10%</h3>
+                            <h3>29,700원</h3>
+                            <p>33000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 04 -->
+                <div class="item">
+                    <img src="img/type5.png" alt="타입5">
+                    <div class="info">
+                        <strong>아이오페</strong>
+                        <h4>라이브 리프트 에멀전 인텐시브 130ml</h4>
+                        <div>
+                            <h3>15%</h3>
+                            <h3>31,450원</h3>
+                            <p>37000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 05 -->
+                <div class="item">
+                    <img src="img/type6.png" alt="타입6">
+                    <div class="info">
+                        <strong>한율</strong>
+                        <h4>어린쑥 진정맑은 클렌징오일 200ml</h4>
+                        <div>
+                            <h3>30%</h3>
+                            <h3>19,600원</h3>
+                            <p>28000원</p>
+                        </div>
+                        <i class="star xi-star">
+                            <span>4.8(280)</span>
+                        </i>
+                        <li>#유수분밸런스</li>
+                    </div>
+                </div><!-- item end 06 -->
+            </div><!-- cont02 end -->
+        </section><!-- recom end -->
+    </section><!-- recommend end -->
+
+    <footer>
+        <div class="c1">
+            <h4>(주)아모레퍼시픽<br>
+            서울특별시 용산구 한강대로 100(한강로2가)<br>
+            080-030-5454 (쇼핑문의) / 080-023-5454 (제품문의)<br>
+            support_kr@amoremall.com (주문/배송/쇼핑 문의)<br>
+            biz_amoremall@amorepacific.com (비즈니스 문의)<br></h4>
+
+            <h4>대표이사 : 안세홍 / 사업자등록번호 : 106-86-43373<br>
+            통신판매업신고번호 : 2017-서울용산-1308사업자 정보 확인<br>
+            건강기능식품판매업 영업신고증 제8호<br>
+            호스팅제공자 : (주)아모레퍼시픽</h4>
+
+            <p>개별 판매자가 입점하여 등록한 상품에 대한 광고, 상품주문, 배송, 환불의 의무와 책임은 각 입점판매자가 부담하고, 이에 대하여 ㈜아모레퍼시픽은 통신판매중개자로서 통신판매의 당사자가 아니므로 일체<br> 책임을 지지 않습니다.</p>
+
+            <p>구매안전서비스 제공안내 <span>가입 사실 확인</span><br>
+            저희 쇼핑몰은 고객님의 안전거래를 위해 모든 무통장입금 주문에 대해 KG이니시스의 에스크로 구매안전서비스를 자동 적용하고 있습니다.</p>
+        </div>
+    </footer>
+</body>
+</html>
